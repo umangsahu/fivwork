@@ -1,0 +1,82 @@
+*{
+  margin:0px;
+  padding:0px;
+  
+}
+.navbar{
+  
+  height:15vh;
+ 
+}
+.navbar ul{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+.navbar ul .box{
+  margin:1em;
+  list-style:none;
+  color: white;
+}
+.one{
+   
+  height:100vh;
+}
+
+
+.one .bgimgone{
+height:44.4em;
+  position: relative;
+  z-index:-1;
+  bottom: 5.8em;
+  
+
+}
+.one .intro{
+  position:absolute;
+  bottom:19em;
+  left:4em;
+  z-index:2;
+  animation: mymove 2s 1;
+}
+
+.one span{
+  color:white;
+  font-size:5rem;
+  z-index:1;
+  
+  
+}
+
+@keyframes mymove{
+      from{
+        left:300px;
+       opacity:0;
+
+      }
+      from{
+        opacity: 1;
+      }
+    }
+
+.two{
+   height:100vh;
+}
+
+.two .bgimgtwo{
+  height:44.9em;
+  width:78.9502em;
+  position:relative;
+  top:5px;
+}
+
+.footer{
+  opacity:0.5;
+  
+}
+.footer p{
+  color:white;
+  position: relative;
+  bottom:200px;
+}
