@@ -2,6 +2,7 @@
   margin:0px;
   padding:0px;
   
+  
 }
 .navbar{
   
@@ -22,6 +23,7 @@ align-items: flex-end;
 .one{
    
   height:100vh;
+
 }
 
 
@@ -59,7 +61,13 @@ height:44.4em;
         opacity: 1;
       }
     }
-
+.desc{
+  color:white;
+  box-sizing: border-box;
+  max-width:20vw;
+  max-height: 10vh;
+  
+}
 .two{
    height:100vh;
 }
@@ -67,10 +75,43 @@ height:44.4em;
 .two .bgimgtwo{
   height:44.9em;
   width:78.9502em;
-  position:relative;
-  top:5px;
-}
+  position:absolute;
 
+}
+.projects{
+  position: absolute;
+  top: 55em;
+  left: 0em;
+  box-sizing: border-box;
+  height: 75vh;
+  max-width: 100vw;
+  color: white;
+  overflow: auto;
+  z-index: 2;
+
+
+}
+.projects .card{
+  box-sizing: border-box;
+    max-height: 65vh;
+    max-width: 38vw;
+    position: relative;
+    margin: 1.5em;
+    padding: 1em;
+    border-radius: 20px;
+    color:white;
+}
+.card:hover{
+  font-size:17px;
+
+}
+.projects .card img{
+  height: 22vh;
+  display: block;
+  margin: auto;
+  padding: 1em;
+  border:2px solid white;
+}
 .footer{
   opacity:0.5;
   
